@@ -1,0 +1,133 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: #F5F5F5
+}
+.header{
+	margin: 25px auto;
+	width: 1406px;
+}
+.menu_title ul{
+	display: none;
+	position: absolute;
+	width:80px;
+	opacity: 0.5;
+	background-color: white;
+
+}
+.logo{
+	float: left;
+	position: relative;
+}
+.menu{
+	float: left;
+	position: relative;
+	margin-top: 12px;
+	margin-left: 16px;
+}
+/*菜单的显示和折叠*/
+/*.menu:hover ul{
+	display: block;
+}*/
+.menu li{
+	list-style-type: none;
+	margin-top: 25px;
+}
+.menu_title{
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	width: 80px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+.auth{
+	float: right;
+}
+.auth li{
+	list-style-type: none;
+	float: left;
+	margin-right: 50px;
+	margin-top: 12px;
+}
+.content{
+	width: 1406px;
+	margin: 25px auto;
+}
+.content .banner .banner-img{
+	margin-top:30px;
+}
+.content .img-content ul{
+	width: 1605px;
+}
+.content .img-content ul li{
+	list-style: none;
+	width: 336px;
+	float: left;
+	margin:20px 199px 20px 0;
+	height: 500px;
+	box-shadow:0 0 5px 3px #ccc;
+	-webkit-box-shadow:0 0 5px 3px #ccc;
+	background-color: #FFFFFF
+}
+.img-content .info .img-btn{
+	width: 300px;
+	
+}
+.img-content .info .img-btn .price{
+	float: left;
+	line-height: 30px;
+	color: red;
+	margin-top:20px;
+
+	font-weight:bold;
+}
+.img-content .info .img-btn .btn{
+	width: 60px;
+	height:30px;
+	float:right;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.img-content .info .img-btn .btn .cart .img-cart{
+	border-radius: 5px;
+}
+.info h3{
+	color: red;
+	font-size: 25px;
+	margin-top: 20px;
+	margin-bottom:20px;
+}
+.info p{
+	line-height: 25px;
+}
+.info{
+	margin: 0 30px 0 30px;
+}
+.page-nav{
+	width: 800px;
+	height: 30px;
+	overflow: hidden;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+}
+.page-nav ul li{
+	list-style: none;
+	float: left;
+	line-height: 30px;
+	margin: 0 25px;
+}
+.footer{
+	width: 1406px;
+	height: 100px;
+	margin: 30px auto;
+	border-top: 1px solid #ccc;
+	overflow: hidden;
+}
+.footer p{
+	text-align: center;
+	line-height: 60px;
+}
